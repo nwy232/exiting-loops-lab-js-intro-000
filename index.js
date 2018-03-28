@@ -7,7 +7,8 @@ breakOut(array, changeValue, stopValue)
   return array;
 }
 
-keepGoing(array, changeValue, skipValue){
+keepGoing(array, changeValue, skipValue)
+{
   for(var i=0; i<stopValue;i++)
   {
     if(array[i]==skipValue)
@@ -19,7 +20,8 @@ keepGoing(array, changeValue, skipValue){
   return array;
 }
 
-findBy(array, findFn){
+findBy(array, findFn)
+{
   for(var i=0;i<array.length;i++)
   {
     if(array[i]=='findFn()')
