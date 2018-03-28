@@ -12,7 +12,7 @@ keepGoing(array, changeValue, skipValue){
     if(array[i]==skipValue)
       continue;
 
-    else 
+    else
       array[i]=changeValue;
   }
   return array;
