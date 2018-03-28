@@ -9,7 +9,7 @@ function breakOut(array, changeValue, stopValue){
 }
 
 function keepGoing(array, changeValue, skipValue){
-  for(var i=0; i<stopValue;i++)
+  for(var i=0; i<array.length;i++)
   {
     if(array[i]==skipValue)
       continue;
@@ -24,7 +24,7 @@ function findBy(array, findFn){
   for(var i=0;i<array.length;i++)
   {
     if(array[i]=='findFn()')
-      break;
+      return array[i];
   }
 
   return null;
